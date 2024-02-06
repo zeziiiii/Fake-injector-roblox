@@ -6,7 +6,7 @@
 #include <ctime>
 
 void p(DWORD pid, const std::wstring& processName) {
-    std::wcout << L"Found RobloxPlayerBeta.exe!" << std::endl;
+    std::wcout << L"Found Roblox!" << std::endl;
     std::wcout << L"PID: " << pid << std::endl;
     std::wcout << L"Process Name: " << processName << std::endl;
 }
